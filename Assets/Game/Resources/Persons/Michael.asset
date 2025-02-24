@@ -17,9 +17,14 @@ MonoBehaviour:
   frontSprite: {fileID: 0}
   backSprite: {fileID: 0}
   type: 0
-  maxHp: 0
-  attack: 0
-  defense: 0
-  rangeAttack: 0
-  rangeDefense: 0
-  speed: 0
+  maxHp: 50
+  attack: 50
+  defense: 50
+  rangeAttack: 50
+  rangeDefense: 50
+  speed: 50
+  attainableMoves:
+  - moveBase: {fileID: 11400000, guid: c6f9a7ac7446cdc4589c15b3a7a72507, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 1896e1cf87710ad44ad04da0c5485260, type: 2}
+    level: 4

@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: 
   description: 
-  type: 0
-  power: 0
-  chance: 0
-  stamina: 0
+  type: 1
+  power: 20
+  chance: 100
+  stamina: 20
