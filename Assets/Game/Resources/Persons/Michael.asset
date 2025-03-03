@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c59783ed6b5b93f4097c907724435178, type: 3}
   m_Name: Michael
   m_EditorClassIdentifier: 
-  name: 
+  name: Michael
   description: 
-  frontSprite: {fileID: 0}
+  frontSprite: {fileID: 21300000, guid: 8968022d918ec074b81ceb544663b408, type: 3}
   backSprite: {fileID: 0}
   type: 0
   maxHp: 50

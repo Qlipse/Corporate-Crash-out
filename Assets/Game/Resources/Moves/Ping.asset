@@ -10,11 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3e079358406fbea45b151ac7c1ac9a71, type: 3}
-  m_Name: Climb the Ladder
+  m_Name: Ping
   m_EditorClassIdentifier: 
-  name: Climb the Ladder
+  name: Ping
   description: 
-  type: 2
+  type: 1
   power: 0
-  chance: 0
-  stamina: 0
+  chance: 100
+  stamina: 35

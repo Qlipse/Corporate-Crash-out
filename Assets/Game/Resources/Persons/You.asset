@@ -12,15 +12,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c59783ed6b5b93f4097c907724435178, type: 3}
   m_Name: You
   m_EditorClassIdentifier: 
-  name: 
+  name: You
   description: 
   frontSprite: {fileID: 0}
   backSprite: {fileID: 21300000, guid: 24f8b08e1d07df149bdbb40b25814a78, type: 3}
-  type: 0
+  type: 2
   maxHp: 0
   attack: 0
   defense: 0
   rangeAttack: 0
   rangeDefense: 0
   speed: 0
-  attainableMoves: []
+  attainableMoves:
+  - moveBase: {fileID: 11400000, guid: c6f9a7ac7446cdc4589c15b3a7a72507, type: 2}
+    level: 0
+  - moveBase: {fileID: 11400000, guid: 9df44196bc5156341bcc4dc99254a9e4, type: 2}
+    level: 0

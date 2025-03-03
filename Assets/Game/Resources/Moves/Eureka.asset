@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3e079358406fbea45b151ac7c1ac9a71, type: 3}
   m_Name: Eureka
   m_EditorClassIdentifier: 
-  name: 
+  name: Eureka
   description: 
   type: 3
   power: 0
