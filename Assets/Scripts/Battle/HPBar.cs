@@ -11,4 +11,19 @@ public class HPBar : MonoBehaviour
     {
         health.transform.localScale = new Vector3(hpNormalized, 1f);
     }
+
+    // When health is changed, it will change the bar to reflect the new health amount over time.
+    public IEnumerator SetHPSmooth(float newHp)
+    {
+        float curHp = health.transform.localScale.x;
+        float changeAmt = curHp - newHp;
+
+        while (curHp - newHp > Mathf.Epsilon)
+        {
+            curHp -= changeAmt * Time.deltaTime;
+            health.transform.localScale = new Vector3(curHp, 1f);
+            yield return null;
+        }
+        health.transform.localScale = new Vector3(newHp, 1f);
+    }
 }

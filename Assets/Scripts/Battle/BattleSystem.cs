@@ -59,6 +59,46 @@ public class BattleSystem : MonoBehaviour
         dialogBox.EnableMoveSelector(true);
     }
 
+    // Performs the selected move and does damage to enemy.
+    IEnumerator PerformPlayerMove()
+    {
+        state = BattleState.Busy;
+
+        var move = playerChar.Person.Moves[currentMove];
+        yield return dialogBox.TypeDialog($"{playerChar.Person.Base.Name} used {move.Base.Name}");
+        yield return new WaitForSeconds(1f);
+        bool isFainted = enemyChar.Person.TakeDamage(move, playerChar.Person);
+        yield return enemyHud.UpdateHP();
+        if (isFainted)
+        {
+            yield return dialogBox.TypeDialog($"{enemyChar.Person.Base.Name} Fainted");
+        }
+        else
+        {
+            StartCoroutine(EnemyMove());
+        }
+    }
+
+    // Function that changes state and selects a random move for the enemy.
+    IEnumerator EnemyMove()
+    {
+        state = BattleState.EnemyMove;
+
+        var move = enemyChar.Person.GetRandomMove();
+        yield return dialogBox.TypeDialog($"{enemyChar.Person.Base.Name} used {move.Base.Name}");
+        yield return new WaitForSeconds(1f);
+        bool isFainted = playerChar.Person.TakeDamage(move, playerChar.Person);
+        yield return playerHud.UpdateHP();
+        if (isFainted)
+        {
+            yield return dialogBox.TypeDialog($"{playerChar.Person.Base.Name} Fainted");
+        }
+        else
+        {
+            PlayerAction();
+        }
+    }
+
     // Function called every frame to check for state changes and calls handler corresponding to state.
     private void Update()
     {
@@ -140,5 +180,12 @@ public class BattleSystem : MonoBehaviour
         }
 
         dialogBox.UpdateMoveSelection(currentMove, playerChar.Person.Moves[currentMove]);
+
+        if (Input.GetKeyDown(KeyCode.Z))
+        {
+            dialogBox.EnableMoveSelector(false);
+            dialogBox.EnableDialogText(true);
+            StartCoroutine(PerformPlayerMove());
+        }
     }
 }

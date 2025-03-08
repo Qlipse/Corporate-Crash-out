@@ -58,4 +58,30 @@ public class Person
         public int MaxHp {
             get { return Mathf.FloorToInt((Base.Speed * Level) / 100f) + 10; }
         }
+
+        // Damage formula for moves. 
+        // modifiers is for randomness in term alike in pokemon.
+        public bool TakeDamage(Move move, Person attacker)
+        {
+            float modifiers = Random.Range(0.85f, 1f);
+            float a = (2 * attacker.Level + 10) / 250f;
+            float d = a * move.Base.Power * ((float)attacker.Attack / Defense) + 2;
+            int damage = Mathf.FloorToInt(d * modifiers);
+
+            HP -= damage;
+            if (HP <= 0)
+            {
+                HP = 0;
+                return true;
+            }
+
+            return false;
+        }
+
+        // Picks random move
+        public Move GetRandomMove()
+        {
+            int r = Random.Range(0, Moves.Count);
+            return Moves[r];
+        }
 }
