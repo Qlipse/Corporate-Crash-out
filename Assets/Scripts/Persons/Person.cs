@@ -59,11 +59,26 @@ public class Person
             get { return Mathf.FloorToInt((Base.Speed * Level) / 100f) + 10; }
         }
 
-        // Damage formula for moves. 
-        // modifiers is for randomness in term alike in pokemon.
-        public bool TakeDamage(Move move, Person attacker)
+        // Calculates damage taken given a move.
+        // Returns an DamageDetails object that contains whether or not the person fainted, if the move was a critical, and if it was an effective move.
+        // modifiers is for outside factors that affect how much a move does. By default, a move does 85% to 100% full damage.
+        public DamageDetails TakeDamage(Move move, Person attacker)
         {
-            float modifiers = Random.Range(0.85f, 1f);
+            float critical = 1f;
+            if (Random.value * 100f <= 6.25f)
+            {
+                critical = 2f;
+            }
+            float type = TypeChart.GetEffectiveness(move.Base.Type, this.Base.Type);
+
+            var damageDetails = new DamageDetails()
+            {
+                TypeEffectiveness = type,
+                Critical = critical,
+                Fainted = false
+            };
+
+            float modifiers = Random.Range(0.85f, 1f) * type * critical;
             float a = (2 * attacker.Level + 10) / 250f;
             float d = a * move.Base.Power * ((float)attacker.Attack / Defense) + 2;
             int damage = Mathf.FloorToInt(d * modifiers);
@@ -72,10 +87,10 @@ public class Person
             if (HP <= 0)
             {
                 HP = 0;
-                return true;
+                damageDetails.Fainted = true;
             }
 
-            return false;
+            return damageDetails;
         }
 
         // Picks random move
@@ -84,4 +99,12 @@ public class Person
             int r = Random.Range(0, Moves.Count);
             return Moves[r];
         }
+}
+
+//  Object that stores 3 values that are to be used in the TakeDamage function.
+public class DamageDetails
+{
+    public bool Fainted { get; set; }
+    public float Critical { get; set; }
+    public float TypeEffectiveness { get; set; }
 }

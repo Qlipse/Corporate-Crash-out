@@ -113,3 +113,32 @@ public enum PersonType
     Charismatic,
     Analytical
 }
+
+// 2D Float array that creates a chart and values inside of them represents a type's effectiveness towards each other.
+public class TypeChart
+{
+    static float[][] chart =
+    {
+        //            NOR AMB CRE CHA ANA
+        new float[] { 1f, 1f, 1f, 1f, 1f}, // NORMAL
+        new float[] { 1f, 1f, 2f, 1f, 0.5f}, // AMBITIOUS
+        new float[] { 1f, 0.5f, 1f, 2f, 1f}, // CREATIVE
+        new float[] { 1f, 1f, 0.5f, 1f, 2f}, // CHARISMATIC
+        new float[] { 1f, 2f, 1f, 0.5f, 1f}  // ANALYTICAL
+    };
+
+    // Function that looks at the 2D Float chart to see what the effectiveness between the attack and the defend type.
+    // PersonType is a enum class which means it still has a int value assigned which is used for chart lookup.
+    public static float GetEffectiveness(PersonType attackType, PersonType defenseType)
+    {
+        if (attackType == PersonType.None || defenseType == PersonType.None)
+        {
+            return 1;
+        }
+
+        int row = (int) attackType - 1;
+        int col = (int) defenseType - 1;
+
+        return chart[row][col];
+    }
+}

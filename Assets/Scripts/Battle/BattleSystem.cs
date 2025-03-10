@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -10,16 +11,17 @@ public class BattleSystem : MonoBehaviour
     [SerializeField] BattleHud playerHud;
     [SerializeField] BattleChar enemyChar;
     [SerializeField] BattleHud enemyHud;
-
     [SerializeField] BattleDialogBox dialogBox;
+
+    public event Action<bool> OnBattleOver;
 
     BattleState state;
     int currentAction;
     int currentMove;
 
-    // Runs once to set up player/enemy information.
+    // Set up player/enemy information.
     // Coroutine allows for execution of code to pause and resume at various points.
-    private void Start()
+    public void StartBattle()
     {
         StartCoroutine(SetupBattle());
     }
@@ -36,7 +38,6 @@ public class BattleSystem : MonoBehaviour
         dialogBox.SetMoveNames(playerChar.Person.Moves);
 
         yield return dialogBox.TypeDialog($"Co-worker {enemyChar.Person.Base.Name} appeared.");
-        yield return new WaitForSeconds(1f);
 
         PlayerAction();
     }
@@ -66,12 +67,22 @@ public class BattleSystem : MonoBehaviour
 
         var move = playerChar.Person.Moves[currentMove];
         yield return dialogBox.TypeDialog($"{playerChar.Person.Base.Name} used {move.Base.Name}");
+
+        // Plays attack animation and waits 1 second
+        playerChar.PlayAttackAnimation();
         yield return new WaitForSeconds(1f);
-        bool isFainted = enemyChar.Person.TakeDamage(move, playerChar.Person);
+
+        enemyChar.PlayHitAnimation();
+        var damageDetails = enemyChar.Person.TakeDamage(move, playerChar.Person);
         yield return enemyHud.UpdateHP();
-        if (isFainted)
+        yield return ShowDamageDetails(damageDetails);
+        if (damageDetails.Fainted)
         {
             yield return dialogBox.TypeDialog($"{enemyChar.Person.Base.Name} Fainted");
+            enemyChar.PlayFaintAnimation();
+
+            yield return new WaitForSeconds(2f);
+            OnBattleOver(true);
         }
         else
         {
@@ -86,12 +97,21 @@ public class BattleSystem : MonoBehaviour
 
         var move = enemyChar.Person.GetRandomMove();
         yield return dialogBox.TypeDialog($"{enemyChar.Person.Base.Name} used {move.Base.Name}");
+
+        enemyChar.PlayAttackAnimation();
         yield return new WaitForSeconds(1f);
-        bool isFainted = playerChar.Person.TakeDamage(move, playerChar.Person);
+
+        playerChar.PlayHitAnimation();
+        var damageDetails = playerChar.Person.TakeDamage(move, playerChar.Person);
         yield return playerHud.UpdateHP();
-        if (isFainted)
+        yield return ShowDamageDetails(damageDetails);
+        if (damageDetails.Fainted)
         {
             yield return dialogBox.TypeDialog($"{playerChar.Person.Base.Name} Fainted");
+            playerChar.PlayFaintAnimation();
+
+            yield return new WaitForSeconds(2f);
+            OnBattleOver(false);
         }
         else
         {
@@ -99,8 +119,24 @@ public class BattleSystem : MonoBehaviour
         }
     }
 
+    // Checks if the attack was a critical/type effective move and display dialog to let the player know.
+    IEnumerator ShowDamageDetails(DamageDetails damageDetails)
+    {
+        if (damageDetails.Critical > 1f)
+        {
+            yield return dialogBox.TypeDialog("A critical hit!");
+        }
+        if (damageDetails.TypeEffectiveness > 1f)
+        {
+            yield return dialogBox.TypeDialog("It's super effective!");
+        } else if (damageDetails.TypeEffectiveness < 1f)
+        {
+            yield return dialogBox.TypeDialog("It's not very effective!");
+        }
+    }
+
     // Function called every frame to check for state changes and calls handler corresponding to state.
-    private void Update()
+    public void HandleUpdate()
     {
         if(state == BattleState.PlayerAction)
         {

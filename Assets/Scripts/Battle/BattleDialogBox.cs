@@ -32,6 +32,8 @@ public class BattleDialogBox : MonoBehaviour
             dialogText.text += letter;
             yield return new WaitForSeconds(1f/lettersPerSecond);
         }
+
+        yield return new WaitForSeconds(1f);
     }
 
     // Function that sets visibility of the dialog textbox based on what argument is passed.

@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System;
 
 public class PlayerController : MonoBehaviour
 {
@@ -9,6 +10,8 @@ public class PlayerController : MonoBehaviour
     private bool isMoving;
     private Vector2 input;
 
+    public event Action OnEncountered;
+
     private Animator animator;
 
     private void Awake()
@@ -16,8 +19,8 @@ public class PlayerController : MonoBehaviour
         animator = GetComponent<Animator>();
     }
 
-    // Update is called once per frame
-    void Update()
+    // HandleUpdate will update the player when called upon by GameController.
+    public void HandleUpdate()
     {
         if(!isMoving) 
         {
@@ -56,6 +59,7 @@ public class PlayerController : MonoBehaviour
         }
     }
 
+    // Checks if Player's next movement is allowed by seeing if the next step will overlap with the solidObjectslayer.
     private bool IsWalkable(Vector3 targetPos) 
     {
         if(Physics2D.OverlapCircle(targetPos, 0.1f, solidObjectsLayer) != null)
