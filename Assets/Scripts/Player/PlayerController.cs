@@ -7,6 +7,7 @@ public class PlayerController : MonoBehaviour
 {
     public float moveSpeed;
     public LayerMask solidObjectsLayer;
+    public LayerMask interactableLayer;
     private bool isMoving;
     private Vector2 input;
 
@@ -45,8 +46,26 @@ public class PlayerController : MonoBehaviour
                 StartCoroutine(Move(targetPos));
             }
         }
+
         animator.SetBool("isMoving", isMoving);
+        if (Input.GetKeyDown(KeyCode.Z))
+        {
+            Interact();
         }
+        }
+
+    void Interact()
+    {
+        var facingDir = new Vector3(animator.GetFloat("moveX"), animator.GetFloat("moveY"));
+        var interactPos = transform.position + facingDir;
+
+        var collider = Physics2D.OverlapCircle(interactPos, 0.3f, interactableLayer);
+        if (collider != null)
+        {
+            OnEncountered();
+        }
+        //Debug.DrawLine(transform.position, interactPos, Color.red, 0.5f);
+    }
 
     IEnumerator Move(Vector3 targetPos) {
     isMoving = true;
@@ -62,11 +81,13 @@ public class PlayerController : MonoBehaviour
     // Checks if Player's next movement is allowed by seeing if the next step will overlap with the solidObjectslayer.
     private bool IsWalkable(Vector3 targetPos) 
     {
-        if(Physics2D.OverlapCircle(targetPos, 0.1f, solidObjectsLayer) != null)
+        if(Physics2D.OverlapCircle(targetPos, 0.1f, solidObjectsLayer | interactableLayer) != null)
         {
             return false;
         }
 
         return true;
     }
+
+
 }
