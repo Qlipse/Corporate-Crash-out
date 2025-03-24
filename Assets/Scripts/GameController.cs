@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public enum GameState { FreeMove, Battle }
+public enum GameState { FreeMove, Battle, Dialog }
 
 public class GameController : MonoBehaviour
 {
@@ -14,10 +14,23 @@ public class GameController : MonoBehaviour
 
     // When playerController triggers OnEncountered event, StartBattle is called.
     // When battleSystem triggers OnBattleOver event, EndBattle is called.
+    // When DialogManager triggers OnShowDialog/OnCloseDialog event, their functions are executed.
     private void Start()
     {
         playerController.OnEncountered += StartBattle;
         battleSystem.OnBattleOver += EndBattle;
+
+        // Lambda functions
+        DialogManager.Instance.OnShowDialog += () => 
+        {
+            state = GameState.Dialog;
+        };
+
+        DialogManager.Instance.OnCloseDialog += () => 
+        {
+            if (state == GameState.Dialog)
+                state = GameState.FreeMove;
+        };
     }
 
     // Changes state and unhides battleSystem while also changing the main camera.
@@ -52,6 +65,10 @@ public class GameController : MonoBehaviour
         else if (state == GameState.Battle)
         {
             battleSystem.HandleUpdate();
+        }
+        else if (state == GameState.Dialog)
+        {
+            DialogManager.Instance.HandleUpdate();
         }
     }
 }

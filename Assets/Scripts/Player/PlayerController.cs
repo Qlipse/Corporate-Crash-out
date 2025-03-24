@@ -54,6 +54,7 @@ public class PlayerController : MonoBehaviour
         }
         }
 
+    // Interact function that checks in front of player to see if there is anything in the interactable layer and calling the object's Interact function.
     void Interact()
     {
         var facingDir = new Vector3(animator.GetFloat("moveX"), animator.GetFloat("moveY"));
@@ -62,7 +63,7 @@ public class PlayerController : MonoBehaviour
         var collider = Physics2D.OverlapCircle(interactPos, 0.3f, interactableLayer);
         if (collider != null)
         {
-            OnEncountered();
+            collider.GetComponent<Interactable>()?.Interact();
         }
         //Debug.DrawLine(transform.position, interactPos, Color.red, 0.5f);
     }
