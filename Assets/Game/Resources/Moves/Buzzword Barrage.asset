@@ -15,6 +15,6 @@ MonoBehaviour:
   name: Buzzword Barrage
   description: 
   type: 4
-  power: 15
+  power: 25
   chance: 100
   stamina: 20

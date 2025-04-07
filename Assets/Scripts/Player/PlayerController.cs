@@ -7,11 +7,13 @@ public class PlayerController : MonoBehaviour
 {
     public float moveSpeed;
     public LayerMask solidObjectsLayer;
+    public LayerMask CubicleLayer;
     public LayerMask interactableLayer;
     private bool isMoving;
     private Vector2 input;
 
     public event Action OnEncountered;
+    public event Action<Collider2D> OnNPCEncounter;
 
     private Animator animator;
 
@@ -54,28 +56,36 @@ public class PlayerController : MonoBehaviour
         }
         }
 
-    // Interact function that checks in front of player to see if there is anything in the interactable layer and calling the object's Interact function.
-    void Interact()
-    {
-        var facingDir = new Vector3(animator.GetFloat("moveX"), animator.GetFloat("moveY"));
-        var interactPos = transform.position + facingDir;
-
-        var collider = Physics2D.OverlapCircle(interactPos, 0.3f, interactableLayer);
-        if (collider != null)
+        // Interact function that checks in front of player to see if there is anything in the interactable layer and calling the object's NPCBattle component if it exists before the interactable component.
+        void Interact()
         {
-            collider.GetComponent<Interactable>()?.Interact();
-        }
-        //Debug.DrawLine(transform.position, interactPos, Color.red, 0.5f);
-    }
+            var facingDir = new Vector3(animator.GetFloat("moveX"), animator.GetFloat("moveY"));
+            var interactPos = transform.position + facingDir;
 
-    IEnumerator Move(Vector3 targetPos) {
-    isMoving = true;
-    while ((targetPos - transform.position).sqrMagnitude > Mathf.Epsilon) {
-        transform.position = Vector3.MoveTowards(transform.position, targetPos, moveSpeed *Time.deltaTime);
-        yield return null;
-    }
-    transform.position = targetPos;
-    isMoving = false;
+            var collider = Physics2D.OverlapCircle(interactPos, 0.3f, interactableLayer);
+            if (collider != null)
+            {
+                if(collider.GetComponent<NPCBattle>() != null)
+                {
+                    OnNPCEncounter?.Invoke(collider);
+                } else collider.GetComponent<Interactable>()?.Interact();
+            }
+            //Debug.DrawLine(transform.position, interactPos, Color.red, 0.5f);
+        }
+
+        IEnumerator Move(Vector3 targetPos) 
+        {
+            isMoving = true;
+
+            while ((targetPos - transform.position).sqrMagnitude > Mathf.Epsilon)
+            {
+                transform.position = Vector3.MoveTowards(transform.position, targetPos, moveSpeed *Time.deltaTime);
+                yield return null;
+            }
+            transform.position = targetPos;
+            isMoving = false;
+
+            CheckForEncounters();
         }
     }
 
@@ -88,6 +98,18 @@ public class PlayerController : MonoBehaviour
         }
 
         return true;
+    }
+
+    // Checks if player is on a CubicleLayer and if they are roll 1/10 chance to see if there is an encounter.
+    private void CheckForEncounters()
+    {
+        if(Physics2D.OverlapCircle(transform.position, 0.2f, CubicleLayer) != null)
+        {
+            if(UnityEngine.Random.Range(1, 101) <= 10)
+            {
+                OnEncountered();
+            }
+        }
     }
 
 

@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public enum GameState { FreeMove, Battle, Dialog }
+public enum GameState { FreeMove, Battle, Dialog, Cutscene }
 
 public class GameController : MonoBehaviour
 {
@@ -15,12 +15,24 @@ public class GameController : MonoBehaviour
     // When playerController triggers OnEncountered event, StartBattle is called.
     // When battleSystem triggers OnBattleOver event, EndBattle is called.
     // When DialogManager triggers OnShowDialog/OnCloseDialog event, their functions are executed.
+    // When playerController triggers OnNPCEncounter event, a lambda function is executed to change state and prevent movement from other handlers.
     private void Start()
     {
         playerController.OnEncountered += StartBattle;
         battleSystem.OnBattleOver += EndBattle;
 
         // Lambda functions
+        playerController.OnNPCEncounter += (Collider2D NPCCollider) => 
+        {
+            var NPC = NPCCollider.GetComponent<NPCBattle>();
+            if(NPC != null)
+            {
+                state = GameState.Cutscene;
+                StartCoroutine(NPC.TriggerNPCBattle(playerController));
+            }
+
+        };
+
         DialogManager.Instance.OnShowDialog += () => 
         {
             state = GameState.Dialog;
@@ -41,7 +53,9 @@ public class GameController : MonoBehaviour
         battleSystem.gameObject.SetActive(true);
         worldCamera.gameObject.SetActive(false);
 
-        battleSystem.StartBattle();
+        var playerPerson = playerController.GetComponent<PlayerPerson>();
+        var randomPerson = FindObjectOfType<MapArea>().GetComponent<MapArea>().GetRandomPerson();
+        battleSystem.StartBattle(playerPerson, randomPerson);
     }
 
     // Changes state back to FreeMove.

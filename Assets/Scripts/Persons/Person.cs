@@ -2,21 +2,34 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-// 
+
+[System.Serializable]
+
 public class Person
 {
-    // getters and setters for variables
-    public PersonBase Base { get; set; }
-    public int Level { get; set; }
+    [SerializeField] PersonBase _base;
+    [SerializeField] int level;
+
+     // getters and setters for variables
+    public PersonBase Base {
+        get {
+            return _base;
+        }
+    }
+
+    public int Level {
+        get {
+            return level;
+        }
+    }
 
     public int HP { get; set; }
 
     public List<Move> Moves { get; set; }
 
-    public Person(PersonBase pBase, int pLevel)
+    // Init initializes the persons HP and move lists.
+    public void Init()
     {
-        Base = pBase;
-        Level = pLevel;
         HP = MaxHp;
 
         Moves = new List<Move>();

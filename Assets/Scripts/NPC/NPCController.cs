@@ -5,6 +5,7 @@ using UnityEngine;
 // NPCController implements Interactable interface and defines the function.
 public class NPCController : MonoBehaviour, Interactable
 {
+
     [SerializeField] Dialog dialog;
     public void Interact()
     {

@@ -25,16 +25,20 @@ public class DialogManager : MonoBehaviour
     }
 
     Dialog dialog;
+    Action onDialogFinished;
+
     int currentLine = 0;
     bool isTyping;
 
-    // Displays Dialog from NPC
-    public IEnumerator ShowDialog(Dialog dialog)
+    // Displays Dialog from NPC and an action queue up right after the dialogs.
+    public IEnumerator ShowDialog(Dialog dialog, Action onFinished=null)
     {
         yield return new WaitForEndOfFrame();
         OnShowDialog?.Invoke();
 
         this.dialog = dialog;
+        onDialogFinished = onFinished;
+
         dialogBox.SetActive(true);
         StartCoroutine(TypeDialog(dialog.Lines[0]));
     }
@@ -53,6 +57,7 @@ public class DialogManager : MonoBehaviour
             {
                 currentLine = 0;
                 dialogBox.SetActive(false);
+                onDialogFinished?.Invoke();
                 OnCloseDialog?.Invoke();
             }
         }

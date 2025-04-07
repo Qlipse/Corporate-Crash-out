@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: Performance Review
   description: 
-  type: 1
-  power: 10
-  chance: 0
-  stamina: 0
+  type: 5
+  power: 15
+  chance: 100
+  stamina: 15

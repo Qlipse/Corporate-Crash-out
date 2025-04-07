@@ -15,6 +15,6 @@ MonoBehaviour:
   name: Ping
   description: 
   type: 5
-  power: 10
+  power: 15
   chance: 100
   stamina: 35

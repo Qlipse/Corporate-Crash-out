@@ -6,8 +6,6 @@ using DG.Tweening;
 
 public class BattleChar : MonoBehaviour
 {
-    [SerializeField] PersonBase _base;
-    [SerializeField] int level;
     [SerializeField] bool isPlayerChar;
 
     public Person Person { get ; set; }
@@ -28,9 +26,9 @@ public class BattleChar : MonoBehaviour
     }
 
     // Fetches data from connected objects through SerializeField.
-    public void Setup()
+    public void Setup(Person person)
     {
-        Person = new Person(_base, level);
+        Person = person;
         if(isPlayerChar)
             image.sprite = Person.Base.BackSprite;
         else

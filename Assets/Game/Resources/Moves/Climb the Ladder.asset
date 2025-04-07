@@ -15,6 +15,6 @@ MonoBehaviour:
   name: Climb the Ladder
   description: 
   type: 2
-  power: 0
-  chance: 0
-  stamina: 0
+  power: 15
+  chance: 100
+  stamina: 10

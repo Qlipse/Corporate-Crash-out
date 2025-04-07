@@ -18,27 +18,41 @@ public class BattleSystem : MonoBehaviour
     BattleState state;
     int currentAction;
     int currentMove;
+    int escapeAttempts;
+
+    PlayerPerson playerPerson;
+    Person randomPerson;
+
 
     // Set up player/enemy information.
     // Coroutine allows for execution of code to pause and resume at various points.
-    public void StartBattle()
+    public void StartBattle(PlayerPerson playerPerson, Person randomPerson)
     {
+        this.playerPerson = playerPerson;
+        this.randomPerson = randomPerson;
         StartCoroutine(SetupBattle());
     }
+
 
     // Sets up player sprites and data as well as enemy sprite and data.
     // As well as dialogue before fight.
     public IEnumerator SetupBattle()
     {
-        playerChar.Setup();
-        enemyChar.Setup();
-        playerHud.SetData(playerChar.Person);
+        var healthyPlayer = playerPerson?.GetHealthyPerson();
+        if (healthyPlayer != null)
+        {
+            playerChar.Setup(healthyPlayer);
+            playerHud.SetData(playerChar.Person);
+            dialogBox.SetMoveNames(playerChar.Person.Moves);
+        }
+
+        enemyChar.Setup(randomPerson);
         enemyHud.SetData(enemyChar.Person);
 
-        dialogBox.SetMoveNames(playerChar.Person.Moves);
 
         yield return dialogBox.TypeDialog($"Co-worker {enemyChar.Person.Base.Name} appeared.");
 
+        escapeAttempts = 0;
         PlayerAction();
     }
 
@@ -187,6 +201,14 @@ public class BattleSystem : MonoBehaviour
             {
                 
             }
+            else if(currentAction == 2)
+            {
+
+            }
+            else if(currentAction == 3)
+            {
+                StartCoroutine(TryToEscape());
+            }
         }
     }
 
@@ -222,6 +244,39 @@ public class BattleSystem : MonoBehaviour
             dialogBox.EnableMoveSelector(false);
             dialogBox.EnableDialogText(true);
             StartCoroutine(PerformPlayerMove());
+        }
+    }
+
+    // Function for the Run action during battle
+    // the formula is taken from Pokémon Generation III and IV game.
+    IEnumerator TryToEscape()
+    {
+        state = BattleState.Busy;
+
+        ++escapeAttempts;
+        int playerSpeed = playerChar.Person.Speed;
+        int enemySpeed = enemyChar.Person.Speed;
+
+        if(enemySpeed < playerSpeed)
+        {
+            yield return dialogBox.TypeDialog($"Ran away safely!");
+            OnBattleOver(true);
+        }
+        else
+        {
+            float f = (playerSpeed * 128) / enemySpeed + 30 * escapeAttempts;
+            f = f % 256;
+
+            if(UnityEngine.Random.Range(0, 256) < f)
+            {
+                yield return dialogBox.TypeDialog($"Ran away safely!");
+                OnBattleOver(true);
+            }
+            else
+            {
+                yield return dialogBox.TypeDialog($"Failed to escape.");
+                StartCoroutine(EnemyMove());
+            }
         }
     }
 }

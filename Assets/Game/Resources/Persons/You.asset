@@ -28,3 +28,7 @@ MonoBehaviour:
     level: 0
   - moveBase: {fileID: 11400000, guid: 9df44196bc5156341bcc4dc99254a9e4, type: 2}
     level: 0
+  - moveBase: {fileID: 11400000, guid: 43ffc4da2669dd34ea7f6d1f10bad264, type: 2}
+    level: 0
+  - moveBase: {fileID: 11400000, guid: 72c674691673622418fa1a591f31874e, type: 2}
+    level: 0
