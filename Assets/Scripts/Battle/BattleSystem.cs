@@ -5,6 +5,7 @@ using UnityEngine;
 
 //States for battle
 public enum BattleState { Start, PlayerAction, PlayerMove, EnemyMove, Busy}
+
 public class BattleSystem : MonoBehaviour
 {
     [SerializeField] BattleChar playerChar;
@@ -21,7 +22,12 @@ public class BattleSystem : MonoBehaviour
     int escapeAttempts;
 
     PlayerPerson playerPerson;
+    NPCPerson npcPerson;
     Person randomPerson;
+
+    bool isNPCBattle = false;
+    PlayerController player;
+    NPCBattle NPC;
 
 
     // Set up player/enemy information.
@@ -30,6 +36,20 @@ public class BattleSystem : MonoBehaviour
     {
         this.playerPerson = playerPerson;
         this.randomPerson = randomPerson;
+        StartCoroutine(SetupBattle());
+    }
+
+    // Set up player/NPC information.
+    // Ticks isNPCBattle true for later logic handling and later use in aftermath handling.
+     public void StartNPCBattle(PlayerPerson playerPerson, NPCPerson npcPerson)
+    {
+        this.playerPerson = playerPerson;
+        this.npcPerson = npcPerson;
+
+        isNPCBattle = true;
+        player = playerPerson.GetComponent<PlayerController>();
+        NPC = npcPerson.GetComponent<NPCBattle>();
+
         StartCoroutine(SetupBattle());
     }
 
@@ -46,8 +66,16 @@ public class BattleSystem : MonoBehaviour
             dialogBox.SetMoveNames(playerChar.Person.Moves);
         }
 
+        if (!isNPCBattle)
+        {
         enemyChar.Setup(randomPerson);
         enemyHud.SetData(enemyChar.Person);
+        }
+        else 
+        {
+            enemyChar.Setup(npcPerson.personChar[0]);
+            enemyHud.SetData(npcPerson.personChar[0]);
+        }
 
 
         yield return dialogBox.TypeDialog($"Co-worker {enemyChar.Person.Base.Name} appeared.");

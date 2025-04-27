@@ -12,6 +12,13 @@ public class GameController : MonoBehaviour
 
     GameState state;
 
+    public static GameController Instance { get; private set; }
+
+    private void Awake()
+    {
+        Instance = this;
+    }
+
     // When playerController triggers OnEncountered event, StartBattle is called.
     // When battleSystem triggers OnBattleOver event, EndBattle is called.
     // When DialogManager triggers OnShowDialog/OnCloseDialog event, their functions are executed.
@@ -56,6 +63,18 @@ public class GameController : MonoBehaviour
         var playerPerson = playerController.GetComponent<PlayerPerson>();
         var randomPerson = FindObjectOfType<MapArea>().GetComponent<MapArea>().GetRandomPerson();
         battleSystem.StartBattle(playerPerson, randomPerson);
+    }
+
+    // Initiates Battle with given NPC.
+    public void StartNPCBattle(NPCBattle npc)
+    {
+        state = GameState.Battle;
+        battleSystem.gameObject.SetActive(true);
+        worldCamera.gameObject.SetActive(false);
+
+        var playerPerson = playerController.GetComponent<PlayerPerson>();
+        var npcPerson = npc.GetComponent<NPCPerson>();
+        battleSystem.StartNPCBattle(playerPerson, npcPerson);
     }
 
     // Changes state back to FreeMove.

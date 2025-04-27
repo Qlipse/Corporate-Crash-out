@@ -7,7 +7,7 @@ public class NPCBattle : MonoBehaviour
     [SerializeField] Dialog dialog;
     [SerializeField] GameObject alert;
 
-    // Displays the alert GameObject and displays dialogs and then on completion of dialog, execute the function.
+    // Displays the alert GameObject and displays dialogs and then on completion of dialog, initiate NPC Battle.
     public IEnumerator TriggerNPCBattle(PlayerController player)
     {
         alert.SetActive(true);
@@ -16,7 +16,7 @@ public class NPCBattle : MonoBehaviour
 
         StartCoroutine(DialogManager.Instance.ShowDialog(dialog, () => 
         {
-            Debug.Log("TriggerNPCBattle");
+            GameController.Instance.StartNPCBattle(this);
         }));
     }
 }

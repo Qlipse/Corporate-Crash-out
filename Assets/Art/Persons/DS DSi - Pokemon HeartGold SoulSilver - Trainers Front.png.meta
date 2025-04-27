@@ -1,0 +1,4879 @@
+fileFormatVersion: 2
+guid: fd154ccb493462d40ac132e33bb7ed43
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1700
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ad6ee9a8c398464ebfd67705d8c5172
+      internalID: -1482934592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_1
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 1700
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06e4f4de2c8c7244a8d6f55a648f7465
+      internalID: -1732925130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_2
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 1700
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa6ebe52c650f514081546f9bd492d37
+      internalID: 425443516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_3
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 1700
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b737c62ed75cbf4581b0f63d013f775
+      internalID: -827213246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_4
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 1700
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c937f18586e34f94cbf90aa923b236f6
+      internalID: 1695807066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_5
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 1700
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6447be3b9dc1b74ba382508f90ce185
+      internalID: -1661814065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_6
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 1700
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6357bc6babf451e4c817550044be807c
+      internalID: 1564957212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_7
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 1700
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b54352945c5b4a4fb7d95bae8ba30f2
+      internalID: 1353998966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_8
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 1700
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66549106b4320714399feb9db9c125b1
+      internalID: 419722769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_9
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 1700
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ca88242308c62146be78b36d3ec962d
+      internalID: -363459336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_10
+      rect:
+        serializedVersion: 2
+        x: 811
+        y: 1700
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd9849ec71d920b4da5938aa44d8793d
+      internalID: 1214489669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_11
+      rect:
+        serializedVersion: 2
+        x: 892
+        y: 1700
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c82c35436f61004ba19400935801f8a
+      internalID: -312033088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_12
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1602
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f55c4d16483a21f41b7027b2b1ee6e43
+      internalID: -562132215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_13
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 1602
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20e969594eaa1b14cb0ecbeefa40c1c5
+      internalID: 1163493181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_14
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 1602
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a34dd531b981e5a4287f37e49dc8102b
+      internalID: -301955534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_15
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 1602
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6de0329438b73944384235f3d55c24de
+      internalID: -300676305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_16
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 1602
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd3c92d5403f7c54da1b911f444c923b
+      internalID: -741392626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_17
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 1602
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18302f2ca3c05754a8038d12801f4730
+      internalID: 1985140293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_18
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 1602
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 131c376f66f4e9d448961d5da486f8db
+      internalID: 1387443669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_19
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 1602
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be87742cc37314d48a7b7de7e1dc4c98
+      internalID: 441621773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_20
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 1602
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31d20e0e167f76c498c6bfab56168a49
+      internalID: 1422458958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_21
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 1602
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a12c25e8e9de52644a22d7fecd98629b
+      internalID: 888098884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_22
+      rect:
+        serializedVersion: 2
+        x: 811
+        y: 1602
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6baad70de6097d4e85fd0748d16543f
+      internalID: -95011748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_23
+      rect:
+        serializedVersion: 2
+        x: 892
+        y: 1602
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66dcf0309ffd9f248b6a964aa37b7f7e
+      internalID: -432703219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_24
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1504
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7c2e67821daf754d88fb396cfb188a8
+      internalID: 1621808668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_25
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 1504
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b017b66739365984387bf53aca2fd5df
+      internalID: 415967119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_26
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 1504
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea5b52c3c7cf2c14aa32f6eab5b7e398
+      internalID: 700980531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_27
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 1504
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28de43a405b9aee4c95d6d741e3e076e
+      internalID: 787756199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_28
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 1504
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f37646cb3534c4a44a2bf2658fe31211
+      internalID: 569550092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_29
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 1504
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3387d92a338264429a50741024b01c0
+      internalID: 959440881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_30
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 1504
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: beec9c385c8805340aa21d3c1ad53268
+      internalID: 1819391931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_31
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 1504
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e989a3772d990de4bae359d19386a3e9
+      internalID: -980795878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_32
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 1504
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5bc9f2b5212e8449b41bbf4f9166219
+      internalID: -51385650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_33
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 1504
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed1505475e5a3d64b816a0facdf875c4
+      internalID: 224588032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_34
+      rect:
+        serializedVersion: 2
+        x: 811
+        y: 1504
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fa15d2222188c7428adb09bc46d3d81
+      internalID: 900324122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_35
+      rect:
+        serializedVersion: 2
+        x: 892
+        y: 1504
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3455843f912afaf4fb8f5bc230af3422
+      internalID: 376744710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_36
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1406
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 742f0a052266bf44bb36597242c5cea0
+      internalID: 784002402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_37
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 1406
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47fda379d9a081f4e9d2dd9894384b15
+      internalID: -101675466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_38
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 1406
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3ffe0910024af54893872af6f8978c9
+      internalID: 1644168028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_39
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 1406
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3714684e4441c94cb4bcc6571b2e728
+      internalID: 1344463219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_40
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 1406
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af378ac09837b03438f086b21bf648fb
+      internalID: -87550339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_41
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 1406
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90727f3bb87c0e0419f64cfc6267753e
+      internalID: 152855085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_42
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 1406
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d08b852fc85d544098a412c30d4854a
+      internalID: -888967190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_43
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 1406
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46194df03d5df804d85bc6ed48089c21
+      internalID: -1143682406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_44
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 1406
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f76d9f3b1c6b9e0468264616b6a1e910
+      internalID: -2139606025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_45
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 1406
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad55bb79dedf4a140ad7e3a7ac2ab5d1
+      internalID: 1157407229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_46
+      rect:
+        serializedVersion: 2
+        x: 811
+        y: 1406
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62e48910534b241439384b136d3bdd50
+      internalID: 1450472778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_47
+      rect:
+        serializedVersion: 2
+        x: 892
+        y: 1406
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e532db7208c5e64880afd6d03ff1622
+      internalID: 438282388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_48
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1308
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 410fc7fcab365c243ba20ab58b236d9d
+      internalID: 1930164777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_49
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 1308
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d06e4303df019504b8db4c598b77a8d1
+      internalID: -125859269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_50
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 1308
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb2ee2742dccfc54e978d87e3dc27a32
+      internalID: 406368683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_51
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 1308
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86ed4ead7256a534fbe62b04206a1648
+      internalID: -1965989906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_52
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 1308
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 906b5a73e76bbf04ab98253e71fbbe05
+      internalID: 2069202982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_53
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 1308
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e27c6dc7248fd094ab35da01bdcf0ee4
+      internalID: 909319293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_54
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 1308
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99db9bd424464bb43890fcddf35d53d4
+      internalID: -1803721657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_55
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 1308
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7dc11571ee684c42a60246971e4caba
+      internalID: -411003645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_56
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 1308
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db96a7c0da7b7b6459fc2b729714e9f1
+      internalID: 1504039940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_57
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 1308
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9f72597d5cba414e8b16de422dff095
+      internalID: -127443637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_58
+      rect:
+        serializedVersion: 2
+        x: 811
+        y: 1308
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e53405896ba0ab4b9cbc889868524f0
+      internalID: -1311765121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_59
+      rect:
+        serializedVersion: 2
+        x: 892
+        y: 1308
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fc04641df283ca42b286361dead7f0d
+      internalID: -165923000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_60
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1210
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad331227f81349843b44c02549e0d642
+      internalID: -912715050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_61
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 1210
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93934553b3921ee46a7867521ff798cd
+      internalID: -2111930095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_62
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 1210
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8779b0d59de2ce840bd7839d2a6966c0
+      internalID: -112167429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_63
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 1210
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f8e5bde26dbd2e4fa9020d382a9ce90
+      internalID: -1157371313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_64
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 1210
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 944e8b054d008be498cee01fc77aa561
+      internalID: 660995944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_65
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 1210
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecad51b449e5f264d91966b4e8466242
+      internalID: 2071900853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_66
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 1210
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 247101fb3c9f18e44bc76e68dd73d2d7
+      internalID: 1656823136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_67
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 1210
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56e08cb58b5d04041848d969d39d6766
+      internalID: 148697929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_68
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 1210
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7bc89f54cbffed4ba82c4c89b6f80d0
+      internalID: -610525976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_69
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 1210
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9055a3830259a2b458d13d6d32f759bb
+      internalID: -80116761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_70
+      rect:
+        serializedVersion: 2
+        x: 811
+        y: 1210
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 686147b65c515094da4a8266fc3b25a5
+      internalID: 386570229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_71
+      rect:
+        serializedVersion: 2
+        x: 892
+        y: 1210
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c93f488917599e64798d9764869746bc
+      internalID: 220441726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_72
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1112
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3892c1a092650d4183e3e8c88ae8e0e
+      internalID: 2130076091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_73
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 1112
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5951d72093d81e49b1043520bba70ba
+      internalID: 225161228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_74
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 1112
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 852d8f829bc1b7e45843b026cec8ed13
+      internalID: 1796041668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_75
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 1112
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d698f254e4ebca6439cf9421226ecf63
+      internalID: 413039306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_76
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 1112
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c34250fbaaa0eb489a0e92da8167a23
+      internalID: -1277463111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_77
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 1112
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9c2315b9e414bf44b5e819f388c4273
+      internalID: -1252258483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_78
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 1112
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0fe8b0e0e7829b46a51c032960ecc07
+      internalID: 1860807153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_79
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 1112
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e76a26c5789dda340820e35472ce3766
+      internalID: 207649582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_80
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 1112
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f79c9afcf6e27184c97af616ea73a748
+      internalID: -1765319906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_81
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 1112
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53ad091ba8b7a03459f4c4ed1e1b86a3
+      internalID: -86453629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_82
+      rect:
+        serializedVersion: 2
+        x: 811
+        y: 1112
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86ea4db3f47b5a64c8e0f8871939b990
+      internalID: -1909134982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_83
+      rect:
+        serializedVersion: 2
+        x: 892
+        y: 1112
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4ebaf4ff895765429c7730d5cdf4519
+      internalID: -332357382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_84
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1014
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: baaf75b9df1553440b6db20694937363
+      internalID: 1425136667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_85
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 1014
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 960774b82362bda4ba3834c20dc3d543
+      internalID: 288991360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_86
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 1014
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f22120f8c6d5f045924d166cbb56db6
+      internalID: -706529652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_87
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 1014
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cbcb8af9d8cf2c449ad15f3c028f4f8
+      internalID: -178790785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_88
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 1014
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 893c0415421c52344801ad3f820015d3
+      internalID: -627295904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_89
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 1014
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8de2f6d729b29b4c808db2859f5dd04
+      internalID: -161254116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_90
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 1014
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a0e072c5ca2f25479b5000e5b70ea73
+      internalID: 1675389724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_91
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 1014
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27e4d8c0bbbb7ba47aff78c1735979ca
+      internalID: -1476703003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_92
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 1014
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84eed4b225002bd479375864f19854dd
+      internalID: -524055170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_93
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 1014
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b19d9c1b6187654bb209ede8007f752
+      internalID: -892991839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_94
+      rect:
+        serializedVersion: 2
+        x: 811
+        y: 1014
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f45461c3321c5944b03d6fa4c27df52
+      internalID: 1749560957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_95
+      rect:
+        serializedVersion: 2
+        x: 892
+        y: 1014
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 223613c6813009b48baba1f8947d2a0a
+      internalID: -20264493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_96
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 916
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9210d808a5ba56f46a522d458c1eafde
+      internalID: -1821088471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_97
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 916
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b02f7ca5de3e88b498d71f92af26adad
+      internalID: 1863525677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_98
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 916
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e12cb1502962d24cb7689d33572baf5
+      internalID: 58914463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_99
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 916
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e58cb77b01003a4cb44d9ff19fbcc8d
+      internalID: 1516091341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_100
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 916
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67962fce3c4f864439a07c374da7f518
+      internalID: -2121968554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_101
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 916
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d0ffef8ae17d1c4b9393a2775ef603b
+      internalID: 1706741988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_102
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 916
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fadac11ac29030b4fa9d9d9d8e8d2ca4
+      internalID: -1059691820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_103
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 916
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e336303e0ef60a446be01e2e67004ed0
+      internalID: -174674386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_104
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 916
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58d96d701e2802f429f2fabf62277dd1
+      internalID: -613810132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_105
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 916
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd1100b4c7de0e14ca5f1e6b2e08a2ce
+      internalID: 45768929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_106
+      rect:
+        serializedVersion: 2
+        x: 811
+        y: 916
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23831e96046e0f74ba1d1ac86f2769ee
+      internalID: -697510749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_107
+      rect:
+        serializedVersion: 2
+        x: 892
+        y: 916
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9123f0a82c0720d4892345234e75df25
+      internalID: -1780045821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_108
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 818
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8c92f2c6ce938447b82317a07fc5a44
+      internalID: 2005978001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_109
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 818
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7e3d5d3f63cea740965db2d787496e6
+      internalID: -788996628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_110
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 818
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 705286fcc5446ad40b0492264edf4156
+      internalID: 756034955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_111
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 818
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cbaffaeee6b3ec4798ddfa55f2a0816
+      internalID: -685261083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_112
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 818
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2767cc6ebaaab0499b28b5138c4bb8d
+      internalID: -642293085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_113
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 818
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e754ef9b0884864eb6e0e23fc6e690f
+      internalID: 1453208249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_114
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 818
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 498020bae59d5a74d88a8263e4679bdd
+      internalID: -202036515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_115
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 818
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 157d006c59f3cf54b8f5aac69d4bb4e8
+      internalID: -195765026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_116
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 818
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b50e2a5ea69b7524f8236537de0689b4
+      internalID: -1406781429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_117
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 818
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 942cf547d7760e747a672bd0b9fc8ca8
+      internalID: 1614553048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_118
+      rect:
+        serializedVersion: 2
+        x: 811
+        y: 818
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc23d067f6ec7984bbb333459e46622c
+      internalID: -1156890027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_119
+      rect:
+        serializedVersion: 2
+        x: 892
+        y: 818
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be5ecb2233643ad42aaee2c3f38065a3
+      internalID: -267261815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_120
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 720
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b7d8cf88f00dc747b46831dfeb7a970
+      internalID: 1477285130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_121
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 720
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98dc011349099dc47a9eec680a4e5004
+      internalID: -477287838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_122
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 720
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44efdff49b407694faedd9f445011fe0
+      internalID: 710051546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_123
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 720
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ce1bce788a9a254d8e2ebd3fadd3cbc
+      internalID: -655951957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_124
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 720
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 614399126fe8b404cb84a9d3876fd8a9
+      internalID: 733624476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_125
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 720
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09f927828fe322747b76e31f1d456aa4
+      internalID: 2032068706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_126
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 720
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a714a09e46ac844dad35e9652e2dd2a
+      internalID: 416086831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_127
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 720
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e919fa7dfeaf28143b8299ccd0d445ad
+      internalID: 1142629539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_128
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 720
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa92df9934d5a73439e25bf7cdf3a474
+      internalID: 1653364939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_129
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 720
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2777dc40f76c7c648852373a8c1c9684
+      internalID: 1072586157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_130
+      rect:
+        serializedVersion: 2
+        x: 811
+        y: 720
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db93e3669f8f8cd40992d8e90de6fe55
+      internalID: 950763232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_131
+      rect:
+        serializedVersion: 2
+        x: 892
+        y: 720
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6118f97301cbc94993d30bfd1d965d1
+      internalID: -750198913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_132
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 622
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ba6f77373b627443ae9f15a443dd9b4
+      internalID: -519004134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_133
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 622
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7247054af4cbe8f428e125df49b3f230
+      internalID: -1597124742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_134
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 622
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b901c55df1d11754eb6e7b3f41566e1f
+      internalID: -217620750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_135
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 622
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9237017d5f8cff14c8a676baf1809914
+      internalID: -1686233245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_136
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 622
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76befc0e4609cfe489d525361e0adb68
+      internalID: -1828835666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_137
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 622
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ffcca65c1c85cd48aa3715c5a6058ad
+      internalID: -2096589794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_138
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 622
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 827c442bd679cff48a7debb4b3593e44
+      internalID: -2081317938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_139
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 622
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37e600bf5664d184dbfbe4da2b8579aa
+      internalID: 1004714489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_140
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 622
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9eb48d123fa42324c91eb7b0036a9539
+      internalID: 497074042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_141
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 622
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7bd04ead3c456142a7c79fe0d227878
+      internalID: 1966295828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_142
+      rect:
+        serializedVersion: 2
+        x: 811
+        y: 622
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3c2237de3318eb4cbb88d6b282ba97f
+      internalID: 1996944700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_143
+      rect:
+        serializedVersion: 2
+        x: 892
+        y: 622
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0eaf02a244c8ab94abc18a676e9757a9
+      internalID: -1877648528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_144
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 524
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65076dac49e0ae94eb5ea47001e18973
+      internalID: 1741267420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_145
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 524
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50d6e607459bbf94f9454f4dbe6cddfa
+      internalID: 593928925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_146
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 524
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bcf8715c22fce044b45020ee94aa033
+      internalID: 886588504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_147
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 524
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9a1118d4e22ae542b70de6ae17b92f3
+      internalID: -1729234735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_148
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 524
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de198460c0b3a2d4a9d1df9e34948111
+      internalID: 925273820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_149
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 524
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe8f59c4cd2808143bdaa55c5918ec63
+      internalID: -601919019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_150
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 524
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6adc76b3d441b94db3f9f4c8f8a6ae6
+      internalID: -1226038216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_151
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 524
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92265e6cac19ca84e86e3628a5d31652
+      internalID: -1810132253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_152
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 524
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7db716c7181918d48ac2e6c305b13a03
+      internalID: 572812946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_153
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 524
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 780fc401f173b3949af8749155326cfa
+      internalID: -234553876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_154
+      rect:
+        serializedVersion: 2
+        x: 811
+        y: 524
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a2d1b5ddc60a9e44809513cd6e101f0
+      internalID: -1233476178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_155
+      rect:
+        serializedVersion: 2
+        x: 892
+        y: 524
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7d898831d2f9ba4eaeeea84f746e7d9
+      internalID: -312480662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_156
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 426
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffe5bfadc40372a408a5d84fa93821c3
+      internalID: 1635078285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_157
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 426
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55874f85229319a42a7dc41fcb24f405
+      internalID: 1396380877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_158
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 426
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 218f44a5c0e1bf04bbc0e7bf2c91434a
+      internalID: 1065079891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_159
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 426
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2114f167bc89fa47893c9729a84d053
+      internalID: -1747741237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_160
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 426
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2a9e2c0467ec9a4faad69ffb1228de3
+      internalID: -1563934213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_161
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 426
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fcb5cb3d50f35841a3786dccb4f829f
+      internalID: -599166914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_162
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 426
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efbde3ded0c069444b30244eefedad02
+      internalID: 1395909729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_163
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 426
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9736af570e4d0504081a71137370878b
+      internalID: -618178758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_164
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 426
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3090ec782f7615347bf0eae092ce163f
+      internalID: 1051492359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_165
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 426
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45b7d23d9effcd54c9efa5043f7c8881
+      internalID: 872210850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_166
+      rect:
+        serializedVersion: 2
+        x: 811
+        y: 426
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02b7e304400700048aae8553a680d4ea
+      internalID: -1094516058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_167
+      rect:
+        serializedVersion: 2
+        x: 892
+        y: 426
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91c1b277b7c42f744a16b51736439ec0
+      internalID: -957409159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_168
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 328
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfa6b9ec57d3ebc4bb0c13cb16d52777
+      internalID: 798009658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_169
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 328
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d2c07c185f352b47aa1a95aba2c0eba
+      internalID: 1913808612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_170
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 328
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43f2d6ae906dfda4793d2ac750920901
+      internalID: -243394749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_171
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 328
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 962ebf8e120ba144d80f857b1abcbcde
+      internalID: 1764211956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_172
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 328
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53b5b49eb9820f34d8abfebb6d284ceb
+      internalID: 652608565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_173
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 328
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b47d6caccd019704f99b36e724b19c44
+      internalID: -779948278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_174
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 328
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee4cd01d9c96dee4c9c1fa4cdc3d91ed
+      internalID: -1447093170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_175
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 328
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e1dfae01d3f5a6479c80940d1aab488
+      internalID: 1262160515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_176
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 328
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a26c131f85dc7f74fb02f78d6a75bccb
+      internalID: 197145103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_177
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 328
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0ce2a0df93e76e4daa52efe8806e69e
+      internalID: 714206544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_178
+      rect:
+        serializedVersion: 2
+        x: 811
+        y: 328
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad8c7db5a6a27fc47a6ac77935ec5d13
+      internalID: 191916640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_179
+      rect:
+        serializedVersion: 2
+        x: 892
+        y: 328
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2c4bc331e7c26e499b29deebbd68dab
+      internalID: -850932197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_180
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 230
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b83dede4470ba3b4eb86b908ba72a326
+      internalID: -873887578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_181
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 230
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50e2de8028f22de409b52fbd0eb7dfe3
+      internalID: 1861706091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_182
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 230
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad96e21e19e26cf439f6a85e948bfad4
+      internalID: 1221575277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_183
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 230
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f44dc2dcb1ebb2142b27bdfd85f21d22
+      internalID: -1603929126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_184
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 230
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 577bcfa671e832f4085fb9dd3133ee8a
+      internalID: -1651603003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_185
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 230
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b494ccfe2a5c7eb488e8216d78ae1516
+      internalID: -1480243190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_186
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 230
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0022ed9caa3b6843a4402de8cf32422
+      internalID: 67992319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_187
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 230
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11d1e2c4f3d603d498c58808101b53c8
+      internalID: 244444758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_188
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 230
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14dbd80eb19d5ee45b1ff057e4937580
+      internalID: 1326383777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_189
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 230
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2fb765c10c27db46a226a48d4ed9097
+      internalID: 1358912292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_190
+      rect:
+        serializedVersion: 2
+        x: 811
+        y: 230
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18d520b6934aa1b4ca39e0da4c2420a0
+      internalID: -1907358548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_191
+      rect:
+        serializedVersion: 2
+        x: 892
+        y: 230
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c75e9ab533b889d459d3c5ff924818a2
+      internalID: -2068907769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_192
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 132
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9806a59755118441ac3d64a13087ff6
+      internalID: 1734189629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_193
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 132
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42edd9283e0422242a4acb786d8fbafb
+      internalID: 1094898563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_194
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 132
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33d4760fc5f0d60489eeef96d93757e8
+      internalID: 89594358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_195
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 132
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc5a442c169dc2842ac1d6011dfb1615
+      internalID: -2104430930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_196
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 132
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f006bb7c0fd00cd459831b112c09d8db
+      internalID: 587261656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_197
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 132
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f23b6e94ee5926b4da4824737cbbb040
+      internalID: 884166003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_198
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 132
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a92d735f48706045ae216d3a213124d
+      internalID: 367774232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_199
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 132
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b561626bea0295f4bbae45e9ed3c95c4
+      internalID: 740508112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_200
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 132
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfaf4b5e812704a42aa6b234147c53b9
+      internalID: 490387823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_201
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 132
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e67b9a17c20c2540a4c1f18607bb1b7
+      internalID: 1771435127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_202
+      rect:
+        serializedVersion: 2
+        x: 811
+        y: 132
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 097daaa7aaf78fa4884dc51e453f8e58
+      internalID: 439929510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_203
+      rect:
+        serializedVersion: 2
+        x: 892
+        y: 132
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36d15f6924073354f9259b82d05373d4
+      internalID: -1586993525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_204
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 34
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6281a5bcd86810746b9dfe2216e8d086
+      internalID: 758026652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_205
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 34
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93ec17304997e874ba4f0fe4f5bbae3c
+      internalID: -89588415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_206
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 34
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba95c480b287eec4794e6d62ce44fe74
+      internalID: 232855595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_207
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 34
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac45abc9e6e1e17458e4be8d05218bf0
+      internalID: 2070826421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_208
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 34
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ccfaf30e8822aa4da2e6b172f3987e9
+      internalID: 814450529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_209
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 34
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37715cc60f821464da3fb8e9203cb881
+      internalID: -1214265764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_210
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 34
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c721c1930732674397d2832b25c221b
+      internalID: 961350547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_211
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 34
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a483ec840a9d6341ad4a6ccfb995c5c
+      internalID: -972285285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_212
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 34
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ffece8bde2da8b448927932dc576247
+      internalID: -1657781197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_213
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 34
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0cccbf77fc81db4dbe27a90e08aa359
+      internalID: 105851474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_214
+      rect:
+        serializedVersion: 2
+        x: 811
+        y: 34
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a4b2741886bc8e4787f0d2ade93dc91
+      internalID: 695904267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_215
+      rect:
+        serializedVersion: 2
+        x: 892
+        y: 34
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08e72d7a4e77b1f4e8a83d096d688550
+      internalID: -2142447612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_0: -1482934592
+      DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_1: -1732925130
+      DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_10: 1214489669
+      DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_100: -2121968554
+      DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_101: 1706741988
+      DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_102: -1059691820
+      DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_103: -174674386
+      DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_104: -613810132
+      DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_105: 45768929
+      DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_106: -697510749
+      DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_107: -1780045821
+      DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_108: 2005978001
+      DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_109: -788996628
+      DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_11: -312033088
+      DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_110: 756034955
+      DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_111: -685261083
+      DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_112: -642293085
+      DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_113: 1453208249
+      DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_114: -202036515
+      DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_115: -195765026
+      DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_116: -1406781429
+      DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_117: 1614553048
+      DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_118: -1156890027
+      DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_119: -267261815
+      DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_12: -562132215
+      DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_120: 1477285130
+      DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_121: -477287838
+      DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_122: 710051546
+      DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_123: -655951957
+      DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_124: 733624476
+      DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_125: 2032068706
+      DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_126: 416086831
+      DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_127: 1142629539
+      DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_128: 1653364939
+      DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_129: 1072586157
+      DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_13: 1163493181
+      DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_130: 950763232
+      DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_131: -750198913
+      DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_132: -519004134
+      DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_133: -1597124742
+      DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_134: -217620750
+      DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_135: -1686233245
+      DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_136: -1828835666
+      DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_137: -2096589794
+      DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_138: -2081317938
+      DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_139: 1004714489
+      DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_14: -301955534
+      DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_140: 497074042
+      DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_141: 1966295828
+      DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_142: 1996944700
+      DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_143: -1877648528
+      DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_144: 1741267420
+      DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_145: 593928925
+      DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_146: 886588504
+      DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_147: -1729234735
+      DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_148: 925273820
+      DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_149: -601919019
+      DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_15: -300676305
+      DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_150: -1226038216
+      DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_151: -1810132253
+      DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_152: 572812946
+      DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_153: -234553876
+      DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_154: -1233476178
+      DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_155: -312480662
+      DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_156: 1635078285
+      DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_157: 1396380877
+      DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_158: 1065079891
+      DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_159: -1747741237
+      DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_16: -741392626
+      DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_160: -1563934213
+      DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_161: -599166914
+      DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_162: 1395909729
+      DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_163: -618178758
+      DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_164: 1051492359
+      DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_165: 872210850
+      DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_166: -1094516058
+      DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_167: -957409159
+      DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_168: 798009658
+      DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_169: 1913808612
+      DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_17: 1985140293
+      DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_170: -243394749
+      DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_171: 1764211956
+      DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_172: 652608565
+      DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_173: -779948278
+      DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_174: -1447093170
+      DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_175: 1262160515
+      DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_176: 197145103
+      DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_177: 714206544
+      DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_178: 191916640
+      DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_179: -850932197
+      DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_18: 1387443669
+      DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_180: -873887578
+      DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_181: 1861706091
+      DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_182: 1221575277
+      DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_183: -1603929126
+      DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_184: -1651603003
+      DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_185: -1480243190
+      DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_186: 67992319
+      DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_187: 244444758
+      DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_188: 1326383777
+      DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_189: 1358912292
+      DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_19: 441621773
+      DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_190: -1907358548
+      DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_191: -2068907769
+      DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_192: 1734189629
+      DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_193: 1094898563
+      DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_194: 89594358
+      DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_195: -2104430930
+      DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_196: 587261656
+      DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_197: 884166003
+      DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_198: 367774232
+      DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_199: 740508112
+      DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_2: 425443516
+      DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_20: 1422458958
+      DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_200: 490387823
+      DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_201: 1771435127
+      DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_202: 439929510
+      DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_203: -1586993525
+      DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_204: 758026652
+      DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_205: -89588415
+      DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_206: 232855595
+      DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_207: 2070826421
+      DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_208: 814450529
+      DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_209: -1214265764
+      DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_21: 888098884
+      DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_210: 961350547
+      DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_211: -972285285
+      DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_212: -1657781197
+      DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_213: 105851474
+      DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_214: 695904267
+      DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_215: -2142447612
+      DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_22: -95011748
+      DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_23: -432703219
+      DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_24: 1621808668
+      DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_25: 415967119
+      DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_26: 700980531
+      DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_27: 787756199
+      DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_28: 569550092
+      DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_29: 959440881
+      DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_3: -827213246
+      DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_30: 1819391931
+      DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_31: -980795878
+      DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_32: -51385650
+      DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_33: 224588032
+      DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_34: 900324122
+      DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_35: 376744710
+      DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_36: 784002402
+      DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_37: -101675466
+      DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_38: 1644168028
+      DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_39: 1344463219
+      DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_4: 1695807066
+      DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_40: -87550339
+      DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_41: 152855085
+      DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_42: -888967190
+      DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_43: -1143682406
+      DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_44: -2139606025
+      DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_45: 1157407229
+      DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_46: 1450472778
+      DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_47: 438282388
+      DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_48: 1930164777
+      DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_49: -125859269
+      DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_5: -1661814065
+      DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_50: 406368683
+      DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_51: -1965989906
+      DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_52: 2069202982
+      DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_53: 909319293
+      DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_54: -1803721657
+      DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_55: -411003645
+      DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_56: 1504039940
+      DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_57: -127443637
+      DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_58: -1311765121
+      DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_59: -165923000
+      DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_6: 1564957212
+      DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_60: -912715050
+      DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_61: -2111930095
+      DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_62: -112167429
+      DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_63: -1157371313
+      DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_64: 660995944
+      DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_65: 2071900853
+      DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_66: 1656823136
+      DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_67: 148697929
+      DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_68: -610525976
+      DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_69: -80116761
+      DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_7: 1353998966
+      DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_70: 386570229
+      DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_71: 220441726
+      DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_72: 2130076091
+      DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_73: 225161228
+      DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_74: 1796041668
+      DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_75: 413039306
+      DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_76: -1277463111
+      DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_77: -1252258483
+      DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_78: 1860807153
+      DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_79: 207649582
+      DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_8: 419722769
+      DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_80: -1765319906
+      DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_81: -86453629
+      DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_82: -1909134982
+      DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_83: -332357382
+      DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_84: 1425136667
+      DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_85: 288991360
+      DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_86: -706529652
+      DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_87: -178790785
+      DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_88: -627295904
+      DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_89: -161254116
+      DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_9: -363459336
+      DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_90: 1675389724
+      DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_91: -1476703003
+      DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_92: -524055170
+      DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_93: -892991839
+      DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_94: 1749560957
+      DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_95: -20264493
+      DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_96: -1821088471
+      DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_97: 1863525677
+      DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_98: 58914463
+      DS DSi - Pokemon HeartGold SoulSilver - Trainers Front_99: 1516091341
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
