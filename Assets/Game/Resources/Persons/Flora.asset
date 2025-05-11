@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: Flora
   description: 
-  frontSprite: {fileID: -1196463426, guid: 07d071a4300ee8f48898b5b9327fb02b, type: 3}
+  frontSprite: {fileID: 1214489669, guid: fd154ccb493462d40ac132e33bb7ed43, type: 3}
   backSprite: {fileID: 887549392, guid: 07d071a4300ee8f48898b5b9327fb02b, type: 3}
   type: 3
   maxHp: 50

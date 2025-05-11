@@ -12,15 +12,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c59783ed6b5b93f4097c907724435178, type: 3}
   m_Name: Boss
   m_EditorClassIdentifier: 
-  name: 
+  name: Boss
   description: 
-  frontSprite: {fileID: 0}
+  frontSprite: {fileID: 197145103, guid: fd154ccb493462d40ac132e33bb7ed43, type: 3}
   backSprite: {fileID: 0}
-  type: 0
-  maxHp: 0
-  attack: 0
-  defense: 0
-  rangeAttack: 0
-  rangeDefense: 0
-  speed: 0
-  attainableMoves: []
+  type: 2
+  maxHp: 60
+  attack: 50
+  defense: 50
+  rangeAttack: 50
+  rangeDefense: 50
+  speed: 50
+  attainableMoves:
+  - moveBase: {fileID: 11400000, guid: e97f178ee1f66dc41baf0ed8d750b95f, type: 2}
+    level: 3
+  - moveBase: {fileID: 11400000, guid: 6a7a453b1c31a1740a019bf7486d3367, type: 2}
+    level: 5
+  - moveBase: {fileID: 11400000, guid: 56d15f0eb1c304b41850a3767aec603b, type: 2}
+    level: 8
+  - moveBase: {fileID: 11400000, guid: 73d0fcab0c428c244b248c90cf368c26, type: 2}
+    level: 10

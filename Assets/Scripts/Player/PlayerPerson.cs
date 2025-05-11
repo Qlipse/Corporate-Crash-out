@@ -20,4 +20,14 @@ public class PlayerPerson : MonoBehaviour
     {
         return personChar.Where(x => x.HP > 0).FirstOrDefault();
     }
+
+    public void levelUp(int num)
+    {
+        personChar[0].levelUp(num);
+    }
+
+    public void healUp()
+    {
+        personChar[0].Heal();
+    }
 }

@@ -78,4 +78,13 @@ public class BattleChar : MonoBehaviour
         sequence.Append(image.transform.DOLocalMoveY(oriPos.y - 150f, 0.5f));
         sequence.Join(image.DOFade(0f, 0.5f));
     }
+
+    // Undoes PlayFaintAnimation when needed.
+    public void RestoreAnimation()
+    {
+        var sequence = DOTween.Sequence();
+        sequence.Append(image.transform.DOLocalMoveY(oriPos.y, 0.25f));
+        sequence.Append(image.transform.DOLocalMoveX(oriPos.x, 0.25f));
+        sequence.Join(image.DOFade(1f, 0.25f));
+    }
 }

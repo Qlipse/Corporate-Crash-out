@@ -18,17 +18,17 @@ MonoBehaviour:
   backSprite: {fileID: 21300000, guid: 24f8b08e1d07df149bdbb40b25814a78, type: 3}
   type: 5
   maxHp: 50
-  attack: 50
-  defense: 50
+  attack: 55
+  defense: 55
   rangeAttack: 50
   rangeDefense: 50
   speed: 50
   attainableMoves:
-  - moveBase: {fileID: 11400000, guid: c6f9a7ac7446cdc4589c15b3a7a72507, type: 2}
-    level: 0
+  - moveBase: {fileID: 11400000, guid: 9a32b3687365edb46a7669f56e0f9aec, type: 2}
+    level: 1
   - moveBase: {fileID: 11400000, guid: 9df44196bc5156341bcc4dc99254a9e4, type: 2}
-    level: 0
-  - moveBase: {fileID: 11400000, guid: 43ffc4da2669dd34ea7f6d1f10bad264, type: 2}
-    level: 0
-  - moveBase: {fileID: 11400000, guid: 72c674691673622418fa1a591f31874e, type: 2}
-    level: 0
+    level: 3
+  - moveBase: {fileID: 11400000, guid: 49f292482eddb3245bb2ed2f66475a5d, type: 2}
+    level: 6
+  - moveBase: {fileID: 11400000, guid: 05b4607d9bcb9174486005679ba92911, type: 2}
+    level: 8

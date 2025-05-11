@@ -14,6 +14,10 @@ public class BattleSystem : MonoBehaviour
     [SerializeField] BattleHud enemyHud;
     [SerializeField] BattleDialogBox dialogBox;
 
+    [SerializeField] AudioClip randomBattleMusic;
+    [SerializeField] AudioClip personBattleMusic;
+    [SerializeField] AudioClip battleVictoryMusic;
+
     public event Action<bool> OnBattleOver;
 
     BattleState state;
@@ -36,6 +40,8 @@ public class BattleSystem : MonoBehaviour
     {
         this.playerPerson = playerPerson;
         this.randomPerson = randomPerson;
+
+        AudioManager.i.PlayMusic(randomBattleMusic);
         StartCoroutine(SetupBattle());
     }
 
@@ -50,6 +56,7 @@ public class BattleSystem : MonoBehaviour
         player = playerPerson.GetComponent<PlayerController>();
         NPC = npcPerson.GetComponent<NPCBattle>();
 
+        AudioManager.i.PlayMusic(personBattleMusic);
         StartCoroutine(SetupBattle());
     }
 
@@ -120,7 +127,16 @@ public class BattleSystem : MonoBehaviour
         yield return ShowDamageDetails(damageDetails);
         if (damageDetails.Fainted)
         {
-            yield return dialogBox.TypeDialog($"{enemyChar.Person.Base.Name} Fainted");
+            AudioManager.i.PlayMusic(battleVictoryMusic);
+            if(isNPCBattle)
+            {
+                npcPerson.GetComponent<NPCBattle>().lost = true;
+                playerPerson.levelUp(1);
+                yield return dialogBox.TypeDialog($"You leveled up!");
+                isNPCBattle = false;
+                playerHud.UpdateLevel();
+            }
+            yield return dialogBox.TypeDialog($"{enemyChar.Person.Base.Name} thinks well of you.");
             enemyChar.PlayFaintAnimation();
 
             yield return new WaitForSeconds(2f);
@@ -149,11 +165,13 @@ public class BattleSystem : MonoBehaviour
         yield return ShowDamageDetails(damageDetails);
         if (damageDetails.Fainted)
         {
-            yield return dialogBox.TypeDialog($"{playerChar.Person.Base.Name} Fainted");
+            yield return dialogBox.TypeDialog($"{playerChar.Person.Base.Name} did not fit in.");
             playerChar.PlayFaintAnimation();
 
             yield return new WaitForSeconds(2f);
             OnBattleOver(false);
+            
+            playerChar.RestoreAnimation();
         }
         else
         {
@@ -205,16 +223,7 @@ public class BattleSystem : MonoBehaviour
             if(currentAction > 0 && currentAction != 2)
                 --currentAction;
         }
-        else if(Input.GetKeyDown(KeyCode.DownArrow))
-        {
-            if(currentAction < 2)
-                currentAction += 2;
-        }
-        else if(Input.GetKeyDown(KeyCode.UpArrow))
-        {
-            if(currentAction > 1)
-                currentAction -= 2;
-        }
+        
     }
 
         dialogBox.UpdateActionSelection(currentAction);
@@ -227,14 +236,6 @@ public class BattleSystem : MonoBehaviour
             }
             else if(currentAction == 1)
             {
-                
-            }
-            else if(currentAction == 2)
-            {
-
-            }
-            else if(currentAction == 3)
-            {
                 StartCoroutine(TryToEscape());
             }
         }
@@ -246,12 +247,12 @@ public class BattleSystem : MonoBehaviour
     {
         if(Input.GetKeyDown(KeyCode.RightArrow))
         {
-            if(currentMove < playerChar.Person.Moves.Count - 1)
+            if(currentMove < playerChar.Person.Moves.Count - 1 && currentMove != 1)
                 ++currentMove;
         }
-        else if(Input.GetKeyDown(KeyCode.LeftArrow))
+        else if(Input.GetKeyDown(KeyCode.LeftArrow ))
         {
-            if(currentMove > 0)
+            if(currentMove > 0 && currentMove != 2)
                 --currentMove;
         }
         else if(Input.GetKeyDown(KeyCode.DownArrow))
@@ -285,26 +286,34 @@ public class BattleSystem : MonoBehaviour
         int playerSpeed = playerChar.Person.Speed;
         int enemySpeed = enemyChar.Person.Speed;
 
-        if(enemySpeed < playerSpeed)
-        {
-            yield return dialogBox.TypeDialog($"Ran away safely!");
-            OnBattleOver(true);
-        }
-        else
-        {
-            float f = (playerSpeed * 128) / enemySpeed + 30 * escapeAttempts;
-            f = f % 256;
-
-            if(UnityEngine.Random.Range(0, 256) < f)
+        if(!isNPCBattle) {
+            if(enemySpeed < playerSpeed)
             {
                 yield return dialogBox.TypeDialog($"Ran away safely!");
                 OnBattleOver(true);
             }
             else
             {
-                yield return dialogBox.TypeDialog($"Failed to escape.");
-                StartCoroutine(EnemyMove());
+                float f = (playerSpeed * 128) / enemySpeed + 30 * escapeAttempts;
+                f = f % 256;
+
+                if(UnityEngine.Random.Range(0, 256) < f)
+                {
+                    yield return dialogBox.TypeDialog($"Ran away safely!");
+                    OnBattleOver(true);
+                }
+                else
+                {
+                    yield return dialogBox.TypeDialog($"Failed to escape.");
+                    StartCoroutine(EnemyMove());
+                }
             }
+        } 
+        else 
+        {
+            yield return dialogBox.TypeDialog($"Can't escape from team members!");
+            yield return dialogBox.TypeDialog($"Choose another action.");
+            state = BattleState.PlayerAction;
         }
     }
 }

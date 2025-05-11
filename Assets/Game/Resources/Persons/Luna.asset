@@ -12,14 +12,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c59783ed6b5b93f4097c907724435178, type: 3}
   m_Name: Luna
   m_EditorClassIdentifier: 
-  name: 
+  name: Luna
   description: 
-  frontSprite: {fileID: 0}
+  frontSprite: {fileID: 1344463219, guid: fd154ccb493462d40ac132e33bb7ed43, type: 3}
   backSprite: {fileID: 0}
-  type: 0
-  maxHp: 0
-  attack: 0
-  defense: 0
-  rangeAttack: 0
-  rangeDefense: 0
-  speed: 0
+  type: 3
+  maxHp: 50
+  attack: 50
+  defense: 50
+  rangeAttack: 50
+  rangeDefense: 50
+  speed: 50
+  attainableMoves:
+  - moveBase: {fileID: 11400000, guid: 9df44196bc5156341bcc4dc99254a9e4, type: 2}
+    level: 3
+  - moveBase: {fileID: 11400000, guid: ab4897fdbf0ef404eb813bb62b984419, type: 2}
+    level: 5
+  - moveBase: {fileID: 11400000, guid: 72c674691673622418fa1a591f31874e, type: 2}
+    level: 6

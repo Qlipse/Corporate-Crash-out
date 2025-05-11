@@ -9,6 +9,8 @@ public class GameController : MonoBehaviour
     [SerializeField] PlayerController playerController;
     [SerializeField] BattleSystem battleSystem;
     [SerializeField] Camera worldCamera;
+    
+    [SerializeField] AudioClip mapMusic;
 
     GameState state;
 
@@ -25,6 +27,7 @@ public class GameController : MonoBehaviour
     // When playerController triggers OnNPCEncounter event, a lambda function is executed to change state and prevent movement from other handlers.
     private void Start()
     {
+        AudioManager.i.PlayMusic(mapMusic, true, true);
         playerController.OnEncountered += StartBattle;
         battleSystem.OnBattleOver += EndBattle;
 
@@ -57,6 +60,8 @@ public class GameController : MonoBehaviour
     void StartBattle()
     {
         state = GameState.Battle;
+        worldCamera.GetComponent<AudioListener>().enabled = false;
+        battleSystem.GetComponentInChildren<AudioListener>().enabled = true;
         battleSystem.gameObject.SetActive(true);
         worldCamera.gameObject.SetActive(false);
 
@@ -69,6 +74,8 @@ public class GameController : MonoBehaviour
     public void StartNPCBattle(NPCBattle npc)
     {
         state = GameState.Battle;
+        worldCamera.GetComponent<AudioListener>().enabled = false;
+        battleSystem.GetComponentInChildren<AudioListener>().enabled = true;
         battleSystem.gameObject.SetActive(true);
         worldCamera.gameObject.SetActive(false);
 
@@ -83,8 +90,11 @@ public class GameController : MonoBehaviour
     void EndBattle(bool won)
     {
         state = GameState.FreeMove;
+        battleSystem.GetComponentInChildren<AudioListener>().enabled = false;
+        worldCamera.GetComponent<AudioListener>().enabled = true;
         battleSystem.gameObject.SetActive(false);
         worldCamera.gameObject.SetActive(true);
+        AudioManager.i.PlayMusic(mapMusic, true, true);
     }
 
     // Update is called every frame.

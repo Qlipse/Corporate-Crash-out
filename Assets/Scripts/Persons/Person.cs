@@ -10,6 +10,8 @@ public class Person
     [SerializeField] PersonBase _base;
     [SerializeField] int level;
 
+    public int maxLevel = 100;
+
      // getters and setters for variables
     public PersonBase Base {
         get {
@@ -30,9 +32,14 @@ public class Person
     // Init initializes the persons HP and move lists.
     public void Init()
     {
-        HP = MaxHp;
-
+        Heal();
         Moves = new List<Move>();
+        UpdateMoves();
+    }
+
+    public void UpdateMoves()
+    {
+        Moves.Clear();
         foreach (var move in Base.AttainableMoves)
         {
             if (move.Level <= Level)
@@ -45,6 +52,25 @@ public class Person
                 break;
             }
         }
+    }
+    
+    public void levelUp(int num)
+    {
+        // Prevent going above the max level.
+        if(level + num > 100)
+        {
+            level = maxLevel;
+        }
+        else 
+        {
+            level += 1;
+        }
+        UpdateMoves();
+    }
+    
+    public void Heal()
+    {
+        HP = MaxHp;
     }
 
     //Returns the floor of (Person.Attack * Level) / 100 + 5

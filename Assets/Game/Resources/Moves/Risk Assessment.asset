@@ -15,6 +15,6 @@ MonoBehaviour:
   name: Risk Assessment
   description: 
   type: 5
-  power: 25
+  power: 30
   chance: 100
   stamina: 5

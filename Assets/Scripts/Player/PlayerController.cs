@@ -65,12 +65,20 @@ public class PlayerController : MonoBehaviour
             var collider = Physics2D.OverlapCircle(interactPos, 0.3f, interactableLayer);
             if (collider != null)
             {
-                if(collider.GetComponent<NPCBattle>() != null)
+                var npcBattle = collider.GetComponent<NPCBattle>();
+                if(npcBattle != null && npcBattle.lost == false)
                 {
                     OnNPCEncounter?.Invoke(collider);
-                } else collider.GetComponent<Interactable>()?.Interact();
+                } 
+                else 
+                {
+                    var interactable = collider.GetComponent<Interactable>();
+                    if (interactable != null)
+                    {
+                        StartCoroutine(interactable.Interact());
+                    }
+                }
             }
-            //Debug.DrawLine(transform.position, interactPos, Color.red, 0.5f);
         }
 
         IEnumerator Move(Vector3 targetPos) 

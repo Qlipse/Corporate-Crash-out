@@ -24,4 +24,9 @@ public class BattleHud : MonoBehaviour
     {
         yield return hpBar.SetHPSmooth((float)_person.HP / _person.MaxHp);
     }
+
+    public void UpdateLevel()
+    {
+        levelText.text = "Lvl " + _person.Level;
+    }
 }

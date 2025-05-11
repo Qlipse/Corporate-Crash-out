@@ -13,7 +13,7 @@ public class BattleDialogBox : MonoBehaviour
     [SerializeField] GameObject moveDetails;
     [SerializeField] List<Text> actionTexts;
     [SerializeField] List<Text> moveTexts;
-    [SerializeField] Text staminaText;
+    [SerializeField] Text powerText;
     [SerializeField] Text typeText;
     [SerializeField] Color highlightedColor;
 
@@ -79,7 +79,7 @@ public class BattleDialogBox : MonoBehaviour
                 moveTexts[i].color = Color.black;
         }
 
-        staminaText.text = $"Stam {move.Stamina}/{move.Base.Stamina}";
+        powerText.text = $"Power {move.Power}";
         typeText.text = move.Base.Type.ToString();
     }
 

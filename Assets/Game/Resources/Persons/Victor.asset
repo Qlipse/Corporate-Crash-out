@@ -12,14 +12,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c59783ed6b5b93f4097c907724435178, type: 3}
   m_Name: Victor
   m_EditorClassIdentifier: 
-  name: 
+  name: Victor
   description: 
-  frontSprite: {fileID: 0}
+  frontSprite: {fileID: -873887578, guid: fd154ccb493462d40ac132e33bb7ed43, type: 3}
   backSprite: {fileID: 0}
   type: 0
-  maxHp: 0
-  attack: 0
-  defense: 0
-  rangeAttack: 0
-  rangeDefense: 0
-  speed: 0
+  maxHp: 50
+  attack: 50
+  defense: 50
+  rangeAttack: 50
+  rangeDefense: 50
+  speed: 50
+  attainableMoves:
+  - moveBase: {fileID: 11400000, guid: c6f9a7ac7446cdc4589c15b3a7a72507, type: 2}
+    level: 0
+  - moveBase: {fileID: 11400000, guid: 4a1069e109696414f940b852a7b22488, type: 2}
+    level: 0

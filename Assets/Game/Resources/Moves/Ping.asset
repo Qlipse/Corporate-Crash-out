@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: Ping
   description: 
-  type: 5
+  type: 2
   power: 15
   chance: 100
   stamina: 35
